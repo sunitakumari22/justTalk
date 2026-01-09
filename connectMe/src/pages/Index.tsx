@@ -28,7 +28,7 @@ const Index = () => {
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-12">
         <div className="max-w-4xl w-full text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Connect with anyone, <span className="text-blue-500">anywhere</span>, in real-time
+            Just Talk with anyone, <span className="text-blue-500">anywhere</span>, in real-time
           </h1>
 
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
@@ -138,7 +138,7 @@ const Index = () => {
 
       <footer className="bg-gray-50 py-6 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} JabWeMet. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Just Talk. All rights reserved.</p>
         </div>
       </footer>
     </div>
