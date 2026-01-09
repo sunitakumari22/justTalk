@@ -14,8 +14,8 @@ const Videocall = ({ roomID, userID, userName }: ZegoRoomProps) => {
     if (hasJoinedRef.current) return;
     hasJoinedRef.current = true;
 
-     const appID = 114107121;
-    const serverSecret = "a964e743e27272b7c7223b0373bcbc35";
+     const appID = 1363265745;
+    const serverSecret = "91bf8859fd625ae8af1c49efa9e09635";
 
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
