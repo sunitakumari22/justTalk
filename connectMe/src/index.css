@@ -92,6 +92,13 @@
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
+    background-color: #f8fbff;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  }
+
+  #root {
+    min-height: 100vh;
   }
 }
 
@@ -114,5 +121,34 @@
   
   .input {
     @apply px-4 py-2 bg-white border border-gray-300 rounded-lg focus-ring w-full;
+  }
+}
+
+@layer utilities {
+  .bg-grid-slate {
+    background-image:
+      linear-gradient(to right, rgba(148, 163, 184, 0.14) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(148, 163, 184, 0.14) 1px, transparent 1px);
+    background-size: 52px 52px;
+  }
+
+  .animate-float {
+    animation: float 7s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 9s ease-in-out infinite;
+    animation-delay: 1.2s;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-14px);
   }
 }
